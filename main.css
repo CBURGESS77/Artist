@@ -1,0 +1,181 @@
+/*GENERAL*/
+
+body {
+  background-color:  #fff;
+  border-color: #999;
+}
+
+a {
+	padding: 0px 17.5px;
+	color: white;
+	font-family: Georgia, arial, serif;
+	font-size: 40px;
+    text-shadow: 0 3px 3px rgba(0,0,0, .8);
+	text-decoration: none;
+	text-align: center;
+}
+
+ img {
+  display: block;
+  max-width: 450px;
+  margin: 0 auto 30px;
+} 
+
+ p{
+  font-size: 25px;
+  font-family: Georgia, Arial, serif;
+} 
+
+/*HEADING*/
+
+header {
+ 	background: linear-gradient(#009AFF, lightblue, white);
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-shadow: 0 3px 3px rgba(0,0,0, .8);
+  font-size: 50px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 40px;
+	text-shadow: 0 3px 3px rgba(0,0,0, 1.0);
+  }
+
+
+/*NAVIGATION*/
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 20px 0px;
+  color: white;
+}
+
+li {
+  	display: inline;
+  	color: white;
+  	text-align: center;
+}
+  
+}
+ a:link {
+ 	display: inline-block;	
+     font-size: 40px;
+     color: #fff;
+}
+
+a:hover{
+  color: #ffa949;
+}
+
+
+/*FOOTER*/
+
+.social-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 2px;
+}
+
+footer .foot {
+  font-style: none;
+  color: black;
+  font-size: 3px;
+}
+/* Portfolio*/
+
+.image-1 {
+	float: left;
+	border: 20px solid black;
+	margin: 0px 0px 0px 10px;
+}
+	
+.image-2 {
+	border: 20px solid black;
+}
+
+.image-3 {
+	float: left;
+	border: 20px solid black;
+	margin: 10px;
+}
+
+.image-4 {
+	border: 20px solid white;
+	right: 600px;
+}
+
+.image-5 {
+	float: left;
+	border: 20px solid black;
+}
+
+.image-6 {
+	position: relative;
+	bottom: 300px;
+	border: 20px solid black;
+	margin: 0px 0px 0px 10px;
+}
+
+/* About */
+
+p.indent-p{
+	text-indent: 50px;
+}
+
+/*Cartoon Images*/
+
+div.gallery {
+	margin: 5px;
+	float: left;
+}
+
+.format-pic {
+	display: inline-block;
+	margin: 0px
+	padding: 0px;
+	/*position: relative;*/
+	bottom:0;
+	right: 700px;
+	max-width: 300px;
+	max-height: 350px;
+}
+
+.comic-head {
+	margin-bottom: -50px;
+	margin-left: 2.5px;
+	color: black;
+	font-family: Georgia, serif;
+	text-align: left;
+}
+.caption-c{
+	margin: -65px 0px 75px 2px;
+	font-size: 15px;
+	color: black;
+}
+.copy-right {
+	font-family: Georgia, serif;
+	font-size: 5px
+}
+
+/* Contact page*/
+
+li .contact-list{
+	text-align: left;
+}
+
+
+
+
